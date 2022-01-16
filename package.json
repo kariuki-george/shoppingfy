@@ -1,0 +1,54 @@
+{
+  "name": "shoppingfy",
+  "version": "1.0.0",
+  "description": "A website to easen shopping burden",
+  "main": "next.config.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.6",
+    "axios": "^0.24.0",
+    "formik": "^2.2.9",
+    "framer-motion": "^5.5.5",
+    "next": "12.0.7",
+    "next-auth": "^4.0.6",
+    "next-themes": "^0.0.15",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-google-login": "^5.2.2",
+    "react-hot-toast": "^2.2.0",
+    "react-query": "^3.34.7",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "8.4.1",
+    "eslint-config-next": "12.0.7",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smiley-geek/shoppingfy.git"
+  },
+  "keywords": [
+    "shopping",
+    "shop",
+    "shopping",
+    "list",
+    "shooping-list"
+  ],
+  "author": "Kariuki George",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smiley-geek/shoppingfy/issues"
+  },
+  "homepage": "https://github.com/smiley-geek/shoppingfy#readme"
+}
