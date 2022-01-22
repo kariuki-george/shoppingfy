@@ -5,8 +5,17 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
-        <body className="bg-white dark:bg-black text-black dark:text-white min-h-screen w-screen max-w-[1400px] m-auto font-noto">
+        <Head>
+          {/* <title>shoppingfy</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <link rel="shortcut icon" href="/logo.svg" type="image/x-icon" /> */}
+        </Head>
+        <body className="bg-background-white text-black  min-h-screen  max-w-[1400px] m-auto font-noto ">
           <Main />
           <NextScript />
         </body>

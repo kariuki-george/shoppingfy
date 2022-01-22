@@ -1,45 +1,41 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-  darkMode: "class",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     screens: {
-      sm: "576px",
+      md: "576px",
+      lg: "800px",
     },
     extend: {
       colors: {
-        darkTheme: "#171a23",
-        blue: {
-          400: "#2D9CDB",
-
-          800: "#2F80ED",
+        icon: { gray: "#454545" },
+        text: {
+          gray: "#828282",
         },
-        red: "#EB5757",
-        gray: {
-          400: "#828282",
-          800: "#333333",
-          600: "#4F4F4F",
-          placeholder: "#BDBDBD",
-          border: "#E0E0E0",
+        heading: {
+          gray: "#34333A",
         },
-
-        yellow: "yellow",
-        black: "#000000",
+        modal: {
+          purple: "#80485B",
+          bg: "#FFF0DE",
+        },
         background: {
-          whitesmoke: "#F2F2F2",
-          white: "#FAFAFB",
-          dark: "#252329",
+          white: " #FAFAFE",
         },
+        yellow: { global: "#F9A109" },
+        blue: { global: " #56CCF2" },
+        red: { global: "#EB5757" },
       },
+      text: [],
     },
   },
   fontFamily: {
     noto: ["Noto Sans", "Helvetica", "Arial", "sans-serif"],
   },
 
-  plugins: [],
+  plugins: [require("daisyui")],
 };

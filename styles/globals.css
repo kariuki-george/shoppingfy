@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer components {
+  .btn {
+    @apply rounded-b-lg bg-blue-global normal-case px-5 outline-none border-none hover:bg-blue-400 text-2xl;
+  }
+  
+}
